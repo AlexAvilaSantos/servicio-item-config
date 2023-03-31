@@ -25,8 +25,8 @@ spring:
   cloud:
     gateway:
       routes:
-      - id : servicio-productos
-        uri: lb://servicio-productos/
+      - id : servicio-productosxd
+        uri: lb://servicio-productosxd/
         predicates:
           - Path=/api/productos/**
           #- Header=token, \d+
