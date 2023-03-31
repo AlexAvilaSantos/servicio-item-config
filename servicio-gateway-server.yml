@@ -20,7 +20,7 @@ resilience4j:
     instances:
       productos:
         base-config: defecto
-               
+
 spring:
   cloud:
     gateway:
